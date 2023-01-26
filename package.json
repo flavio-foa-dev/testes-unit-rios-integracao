@@ -1,0 +1,25 @@
+{
+  "name": "testes-unit-rios-integracao",
+  "version": "1.0.0",
+  "description": "- unitario  - integracao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavio-foa-dev/testes-unit-rios-integracao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavio-foa-dev/testes-unit-rios-integracao/issues"
+  },
+  "homepage": "https://github.com/flavio-foa-dev/testes-unit-rios-integracao#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
