@@ -41,4 +41,39 @@ describe("Carrinho", () => {
 
     expect(finalizarCar).toThrowError('Carrinho de compras vazio')
   })
+
+  it('Deve adicionar  o frete', ()=> {
+    const carrinho = new Carrinho()
+
+    carrinho.adicionaFrete(25)
+
+    expect(carrinho.frete).toBe(25)
+  })
+
+  it('Deve calcular a compra', () => {
+    const item1 = new Item('Uva', 5, 2)
+    const item2 = new Item('Açaí', 2, 5)
+    const carrinho = new Carrinho()
+
+    carrinho.adiciona(item1)
+    carrinho.adiciona(item2)
+    carrinho.adicionaFrete(11)
+    const result = carrinho.finalizaCompra()
+
+    expect(result.total).toEqual(carrinho.total)
+  })
+
+  it("Deve finalizar a compra", ()=> {
+    const item1 = new Item('Uva', 4.3, 2)
+    const item2 = new Item('Açaí', 3, 5)
+    const carrinho = new Carrinho()
+
+    carrinho.adiciona(item1)
+    carrinho.adiciona(item2)
+    carrinho.adicionaFrete(15)
+    const result = carrinho.finalizaCompra()
+
+    expect(typeof carrinho).toBe("object")
+    expect(result).toStrictEqual({"subtotal": 23.6, "frete": 15, "total": 38.6})
+  })
 })
