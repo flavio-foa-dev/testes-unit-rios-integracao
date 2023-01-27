@@ -64,6 +64,11 @@ O Jest também fornece o relatório de cobertura de forma mais visual. Quando ut
 - Uma função callback para executar o teste.
 - Gerar relatório com o coverage,
 - ferramenta integrada do jest para cobertura de testes, que possibilita identificar caminhos não testados no código.
+- Usar Matchers para diferentes formas de testes, comparando igualdade, inclusão, erros e propriedades de valores;
+- Alinhar o uso do matcher com asserções e estrutura de dados para utilizar em arrays, partes de objetos e conjuntos;
+- Identificar as situações de "falso positivo", por meio da análise do percentual de cobertura com a flag --coverage;
+- Reconhecer que nem sempre quando obtivermos 100% de cobertura de acordo com um relatório estaremos realmente testando todo o código;
+- algumas formas que falso-positivos podem existir nos nossos testes.
 
 
 Método	Funcionalidade

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674770583555" clover="3.2.0">
-  <project timestamp="1674770583556" name="All files">
-    <metrics statements="19" coveredstatements="12" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="7" elements="32" coveredelements="19" complexity="0" loc="19" ncloc="19" packages="2" files="3" classes="3"/>
+<coverage generated="1674823248095" clover="3.2.0">
+  <project timestamp="1674823248096" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="32" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="2" files="3" classes="3"/>
     <package name="src">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.js" path="/home/flavio/Documentos/Flavio-2023/Alura cursos/testes-unit-rios-integracao/src/index.js">
@@ -12,28 +12,28 @@
       </file>
     </package>
     <package name="src.carrinho">
-      <metrics statements="16" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="4"/>
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
       <file name="carrinho.js" path="/home/flavio/Documentos/Flavio-2023/Alura cursos/testes-unit-rios-integracao/src/carrinho/carrinho.js">
-        <metrics statements="12" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="2"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
       </file>
       <file name="item.js" path="/home/flavio/Documentos/Flavio-2023/Alura cursos/testes-unit-rios-integracao/src/carrinho/item.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
       </file>
     </package>
   </project>
