@@ -1,4 +1,4 @@
-import Autor from '../models/autorModel';
+import Autor from '../models/autorModel.js';
 
 class AutoresController {
   static listarAutores = async (_, res) => {
