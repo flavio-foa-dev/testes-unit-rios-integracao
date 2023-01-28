@@ -1,4 +1,4 @@
-import Editora from '../models/editoraModel';
+import Editora from '../models/editoraModel.js';
 
 class EditorasController {
   static listarEditoras = async (_, res) => {
